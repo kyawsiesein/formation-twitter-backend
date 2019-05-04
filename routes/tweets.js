@@ -11,7 +11,7 @@ router.post("/post", () => {
     response
   ) {
     console.log(data);
-    console.log(err);
+    console.log("err", err);
   });
 });
 
